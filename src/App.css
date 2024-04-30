@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,39 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* .flower-color-0{
+  
+  background-color: #E8F2E7;  
+}
+
+.flower-color-1{
+  
+  color: #D38BD4;  
+}
+
+.flower-color-2{
+  
+  color: #E3BE21;  
+}
+
+.flower-color-3{
+  
+  color: #4E713D;  
+} */
+
+.flower-color-0{
+  
+  background-color: #f7f7f7;  
+}
+
+.flower-color-1{
+  
+  color: #ff398f;  
+}
+
+.flower-color-2{
+  
+  color: #D38BD4;  
 }
