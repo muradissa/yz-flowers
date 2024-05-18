@@ -1,7 +1,7 @@
 // main.jsx
 
 import React from 'react';
-import Img1 from '../../images/b2.jpg'
+import Img1 from '../../images/b2.jpg';
 import './main.css';
 
 const Main = () => {

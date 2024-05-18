@@ -1,0 +1,66 @@
+
+  .moving-line h1{
+    margin: 3rem;
+    text-align: center;
+    color: #ED2647;
+  }
+  /********************************************************************/
+  .moving-line {
+    width: 100%;
+    overflow: hidden;
+    margin: auto auto; 
+    background-color: #f7f7f7;
+
+  }
+  
+  .image-container {
+    display: flex;
+    animation: slide 60s linear infinite;
+    gap:1rem;
+  }
+  
+  .moving-image {
+    width: auto;
+    height: 250px;
+    margin-right: 20px;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin: 1rem 1rem;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(5%);
+    }
+    50% {
+        transform: translateX(-100%);
+      }
+    100% {
+      transform: translateX(5%);
+    }
+  }
+  
+  
+  /********************************************************************/
+  @media screen and (max-width: 900px) {
+    
+  }
+  
+  /* @media screen and (max-width: 500px) {
+  
+    
+    .moving-image {
+      height: 200px;
+    }
+    @keyframes slide {
+      0% {
+        transform: translateX(1080%);
+      }
+      50% {
+          transform: translateX(-10%);
+        }
+      100% {
+        transform: translateX(1080%);
+      }
+    }
+  } */

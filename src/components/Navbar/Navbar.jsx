@@ -14,13 +14,29 @@ const Navbar = () => {
           <a href="/" className="nav-link">Home</a>
         </li>
         <li className="nav-item">
-          <a href="/products" className="nav-link">Products</a>
+          <a href="/products" className="nav-link">
+             باقات ورود
+          </a>
         </li>
         <li className="nav-item">
-          <a href="/about" className="nav-link">About Us</a>
+          <a href="/about" className="nav-link">
+            باقات للاعراس
+          </a>
         </li>
         <li className="nav-item">
-          <a href="/contact" className="nav-link">Contact</a>
+          <a href="/contact" className="nav-link">
+            تنسيق زهور 
+          </a>
+        </li>
+        <li className="nav-item">
+          <a href="/contact" className="nav-link">
+            تاج\طوق زهور
+          </a>
+        </li>
+        <li className="nav-item">
+          <a href="/contact" className="nav-link">
+            هدايا
+          </a>
         </li>
       </ul>
     </nav>
