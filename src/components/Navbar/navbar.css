@@ -1,6 +1,6 @@
-/* navbar.css */
+/* navvbar.css */
 
-.navbar {
+.navvbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,25 +9,25 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   }
   
-  .navbar-brand {
+  .navvbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
     color: #333333;
   }
   
-  .navbar-nav {
+  .navvbar-navv {
     list-style-type: none;
     display: flex;
   }
   
-  .nav-item {
+  .navv-item {
     margin-right: 5.5rem;
 
     transition:  0.4s ease;
 
   }
   
-  .nav-link {
+  .navv-link {
     font-size: 1.1rem;
     /* font-weight: bold; */
     /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); */
@@ -37,10 +37,10 @@
     transition: color 0.3s ease;
   }
   
-  .nav-link:hover {
+  .navv-link:hover {
     color: #ED2647;
   }
-  .nav-item:hover {
+  .navv-item:hover {
 
     scale: 1.2;
   }

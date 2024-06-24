@@ -7,6 +7,7 @@ import AutoSlider from './components/AutoSlider/AutoSlider';
 import { SliderData } from './Data/SliderData';
 import Img1 from './images/b2.jpg';
 
+import TSCard from './components/TopSellers/TSCard';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Navbar></Navbar>
       <Main></Main>
       <AutoSlider photos={SliderData}></AutoSlider>
+      <TSCard></TSCard>
       <Works></Works>
 
     </div>
